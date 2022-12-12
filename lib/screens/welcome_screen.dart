@@ -71,14 +71,21 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                     height: animationForLogo.value * 70,
                   ),
                 ),
-                // ignore: deprecated_member_use
-                TypewriterAnimatedTextKit(
-                  text: ['Flash Chat'],
-                  textStyle: TextStyle(
+
+                // TypewriterAnimatedTextKit(
+                //   text: ['Flash Chat'],
+                //   textStyle: TextStyle(
+                //     fontSize: 45.0,
+                //     fontWeight: FontWeight.w900,
+                //   ),
+                // ),
+                Text(
+                  'Flash Chat',
+                  style: TextStyle(
                     fontSize: 45.0,
                     fontWeight: FontWeight.w900,
                   ),
-                ),
+                )
               ],
             ),
             SizedBox(
